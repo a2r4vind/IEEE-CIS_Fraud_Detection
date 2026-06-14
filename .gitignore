@@ -1,0 +1,63 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+.venv/
+env/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Dataset Files
+# =========================
+data/raw/
+data/interim/
+data/processed/
+
+# Ignore CSVs, Pickles, Parquet files
+*.csv
+*.pkl
+*.parquet
+
+# =========================
+# Model Artifacts
+# =========================
+models/
+*.joblib
+*.pth
+*.pt
+*.h5
+*.model
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Temporary Files
+# =========================
+tmp/
+temp/
